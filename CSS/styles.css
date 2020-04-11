@@ -37,8 +37,10 @@
   margin:20px;
   background-color: #ffe196;
   position: absolute;
-  left:650px;
-  bottom: 850px;
+ left:750px;
+ /*
+/  bottom: 850px;
+*/
   text-align: center;
 
 }
