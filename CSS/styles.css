@@ -6,13 +6,16 @@
 
   .greeting {
     padding-top: 100px;
+    width: 50%;
+    margin: 010px auto;
     text-align: center;
-    padding: 20px;
+
+
     /*  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
   }
 
   .introduction {
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -30,6 +33,8 @@
   .my-pic {
     height: 200px;
     width: 200px;
+
+      margin-left: 15%;
     position: absolute;
     right: 70%;
   }
@@ -71,7 +76,7 @@
 
   .first-cloud {
     position: relative;
-    left: 60px;
+    left: 0;
   }
 
   .second-cloud {
@@ -86,8 +91,8 @@
     height: 120px;
     width: 120px;
     position: absolute;
-    right: 60%;
-    top: 170px;
+    right: 68%;
+    top: 30%;
   }
 
   .bottom-container {
@@ -133,7 +138,7 @@
   }
 
   table {
-    width: 60%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     color: #333333;
