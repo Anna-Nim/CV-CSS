@@ -1,9 +1,12 @@
   body {
-    background-color: #8ec6c5;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: #eaf6f6;
+    font-family: 'Roboto Slab', serif;
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    margin: 0 auto 0 auto;
+    color: #40514e;
   }
 
   .greeting {
@@ -11,39 +14,44 @@
     width: 50%;
     margin: 010px auto;
     text-align: center;
+    font-size: 1.5rem;
     /*  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
   }
 
-
   .hand-written {
     font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #66bfbf;
   }
 
   .anna-nim {
+    font-size: 250%x;
     text-decoration-line: underline;
   }
 
   .my-pic1 {
-    height: 200px;
-    width: 200px;
+    height: 12.5rem;
+    width: 12.5rem;
     margin-left: 15%;
     position: absolute;
     right: 70%;
+    top: 23%
   }
 
   .my-pic2 {
-    height: 200px;
-    width: 200px;
+    height: 12.5rem;
+    width: 12.5rem;
     margin-left: 15%;
     position: absolute;
     right: 70%;
+    top: 23%
   }
 
   .icon {
-    height: 80px;
-    width: 80px;
-margin: 0;
-width: 80px;
+    height: 5rem;
+    width: 5rem;
+    margin: 0;
+    width: 5rem;
   }
 
   .giph {
@@ -53,21 +61,26 @@ width: 80px;
   }
 
   .contacts {
-    height: 130px;
-    width: 130px;
-    margin: 20px;
-    background-color: #ffe196;
+    height: 10rem;
+    width: 10rem;
+    margin: 1.1rem;
+    background-image: url("https://media3.giphy.com/media/fxa8UyRChmyT2wi5KA/giphy.webp?cid=ecf05e47335dc0af9268fd098e67974ca43746d93a5cd853&rid=giphy.webp");
     position: fixed;
-    left: 85%;
+    left: 83%;
     /*
 /  bottom: 850px;
 */
     text-align: center;
   }
 
+  .phone {
+    height: 7rem;
+    width: 7rem;
+  }
+
   .badge {
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 
   .circular {
@@ -107,7 +120,6 @@ width: 80px;
     top: 30%;
   }
 
-
   hr {
     border-style: none;
     border-top: dotted;
@@ -117,18 +129,21 @@ width: 80px;
   }
 
   h1 {
-    color: #30475e;
+    color: #3b6978;
     text-align: center;
-    margin-top: 0px;
+    font-size: 200% margin-top: 0px;
   }
 
   h2 {
     color: #3b6978;
+    font-size: 2rem;
   }
 
   h3 {
     color: #3b6978;
     text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
   }
 
   h4 {
@@ -144,39 +159,62 @@ width: 80px;
   }
 
   table {
-    width: 75%;
+    width: 83%;
     margin-left: auto;
     margin-right: auto;
-    color: #333333;
+    color: #40514e;
+    line-height: 180%;
   }
 
+  a {
+    color: #11999E;
+    text-decoration: none;
+  }
 
-    .introduction {
-
-      margin: 0 auto;
-      text-align: center;
-      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      padding: 0px;
-      background-color: LightGrey;
-    }
-.education{
-  background-color: white;
-      background-color: LightGrey;
+a:hover{
+  color:#eaf6f6;
 }
 
-.work {
-        background-color: LightGrey;
-}
+  .introduction {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    background-color: LightGrey;
+    border-radius: 15px 50px 30px;
+    width: 60%;
+    margin: auto;
+  }
 
-.skills {
-      background-color: LightGrey;
-}
+  .education {
+    background-color: LightGrey;
+    border-radius: 15px 50px 30px;
+    width: 65%;
+    margin: auto;
+  }
 
-.languages{
-        background-color: LightGrey;
-}
+  .work {
+    background-color: LightGrey;
+    border-radius: 15px 50px 30px;
+    width: 65%;
+    margin: auto;
+  }
 
-.bottom-container {
-text-align: center;
-object-position: center;
-}
+  .skills {
+    background-color: LightGrey;
+    border-radius: 15px 50px 30px;
+    width: 60%;
+    margin: auto;
+  }
+
+  .languages {
+    background-color: LightGrey;
+    border-radius: 15px 50px 30px;
+    width: 60%;
+    margin: auto;
+  }
+
+  .bottom-container {
+    text-align: center;
+    object-position: center;
+  }
+
+  .btn {}
