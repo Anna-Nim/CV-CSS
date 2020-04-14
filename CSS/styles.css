@@ -1,11 +1,10 @@
   body {
     background-color: #eaf6f6;
-    font-family: 'Roboto Slab', serif;
-    width: 90%;
-    color: #19282a;
-    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #40514e;
+    font-size: 15px;
+    margin-right: 10%;
   }
-
 
   .hand-written {
     font-family: 'Dancing Script', cursive;
@@ -126,28 +125,29 @@
   h3 {
     color: #3b6978;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 1.5rem;
   }
 
   h4 {
     color: #3b6978;
+    text-align: center;
+    font-size: 1rem;
   }
 
   h5 {
-    color: #40e0d0;
+    color: #3b6978;
   }
 
   h6 {
-    color: #40e0d0;
+    color: #3b6978;
   }
 
   table {
     width: 83%;
     color: #40514e;
     line-height: 1.5rem;
-    padding: 1.5rem;
   }
 
   a {
@@ -155,51 +155,62 @@
     text-decoration: none;
   }
 
-a:hover{
-  color:#40e0d0;
-}
+  a:hover {
+    color: #40e0d0;
+  }
 
-.greeting {
-  padding: 1.25rem;
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  font-size: 1.2rem;
-}
+  .greeting {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+  }
 
   .about {
     text-align: center;
     background-color: white;
+    color: #3b6978;
     border-radius: 15px 50px 30px;
-    width: 60%;
+    width: 50%;
     margin: auto;
-    font-size: 1.2rem;
+    padding: 3%;
     line-height: 1.5rem;
-    }
+  }
 
   .education {
     background-color: white;
     border-radius: 15px 50px 30px;
-      width: 90%;
+    width: 90%;
     margin: auto;
+    padding-left: 3%;
   }
-.work{
+
+  .work {
     width: 95%;
     padding-top: 2rem;
-}
-.period{
-  width: 13rem;
-  line-height: 3.5rem;
-  color: grey;
-  font-size: 2rem;
-  padding: 0;
+    display: inline-flex;
+  }
 
-}
+  .period {
+    color: grey;
+    font-size: 1rem;
+    line-height: 0.5rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .work-pace {
+    font-size: 1.4rem;
+    max-width: 5rem;
+  }
+
+  /* Right column */
   .duties {
     background-color: LightGrey;
     border-radius: 10%;
-    padding: 2.5%;
-    margin: auto;
+    float: left;
+    padding: 2%;
+    max-width: 50rem;
   }
 
   .skills {
@@ -207,12 +218,14 @@ a:hover{
     border-radius: 15px 50px 30px;
     width: 90%;
     margin: auto;
-    font-size: 1.2rem;
+    padding-left: 2%;
   }
-  .left{
+
+  .left {
     margin-left: 10%;
   }
-  .right{
+
+  .right {
     margin-right: 10%;
   }
 
@@ -221,8 +234,7 @@ a:hover{
     border-radius: 15px 50px 30px;
     width: 60%;
     margin: auto;
-    font-size: 1.2rem;
-
+    padding-left: 5%;
   }
 
   .bottom-container {
@@ -230,25 +242,27 @@ a:hover{
   }
 
   .btn {
-  box-shadow: 0px 2px 9px -2px #a7b5db;
-	background:linear-gradient(to bottom, #51b3ae 5%, #5df0f0 100%);
-	background-color:#51b3ae;
-	border-radius:12px;
-	border:1px solid #d7f0f7;
-	display:inline-block;
-	cursor:pointer;
-	color:#fafeff;
-	font-family:Arial;
-	font-size:12px;
-	padding:4px 29px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #4471e3;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #5df0f0 5%, #51b3ae 100%);
-	background-color:#5df0f0;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+    box-shadow: 0 2px 9px -2px #a7b5db;
+    background: linear-gradient(to bottom, #51b3ae 5%, #5df0f0 100%);
+    background-color: #51b3ae;
+    border-radius: 12px;
+    border: 1px solid #d7f0f7;
+    display: inline-block;
+    cursor: pointer;
+    color: #fafeff;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 4px 29px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #4471e3;
+  }
+
+  .myButton:hover {
+    background: linear-gradient(to bottom, #5df0f0 5%, #51b3ae 100%);
+    background-color: #5df0f0;
+  }
+
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
