@@ -1,0 +1,323 @@
+  body {
+    background-color: #eaf6f6;
+    font-family: 'Open Sans', sans-serif;
+    color: #40514e;
+    font-size: 15px;
+    margin: 10%;
+    margin: auto;
+
+  }
+
+  .hand-written {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #66bfbf;
+  }
+
+  .anna-nim {
+    font-size: 110%;
+    text-decoration-line: underline;
+  }
+
+  .my-pic1 {
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-left: 20%;
+  }
+
+  .icon {
+    height: 5rem;
+    width: 5rem;
+    margin: 0;
+  }
+
+  .giph {
+    height: 220px;
+    width: 170px;
+  }
+.navbar-brand{
+      color: #3b6978;
+}
+
+  .contacts {
+    height: 10rem;
+    width: 10rem;
+    margin: 1.1rem;
+    background-image: url("https://media3.giphy.com/media/fxa8UyRChmyT2wi5KA/giphy.webp?cid=ecf05e47335dc0af9268fd098e67974ca43746d93a5cd853&rid=giphy.webp");
+    position: fixed;
+    left: 83%;
+    text-align: center;
+  }
+
+  .phone {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .badge {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .circular {
+    border-radius: 100%;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+  }
+
+  .top-cloud {
+    position: relative;
+    left: 0;
+  }
+
+  .bottom-cloud1 {
+    text-align: center;
+    position: relative;
+    right: 20px;
+    top: 20px;
+  }
+
+  .bottom-cloud1 {
+    text-align: center;
+  }
+
+  .mountain {
+    display: inline;
+  }
+
+  .web-design-pic {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 68%;
+    top: 30%;
+  }
+
+  hr {
+    border-style: none;
+    border-top: dotted;
+    border-color: #72b5b7;
+    border-width: 5px;
+    width: 30%;
+  }
+
+  h1 {
+    color: #3b6978;
+    text-align: center;
+    font-size: 200%;
+  }
+
+  h2 {
+    color: #3b6978;
+    font-size: 2rem;
+  }
+
+  h3 {
+    color: #3b6978;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+  }
+
+  h4 {
+    color: #3b6978;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  h5 {
+    color: #3b6978;
+  }
+
+  h6 {
+    color: #3b6978;
+  }
+
+  table {
+    width: 83%;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+
+  a {
+    color: #11999E;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #40e0d0;
+  }
+
+  .greeting {
+    width: 50%;
+    padding-top: 10%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .about {
+    display: inline-flex;
+    margin: auto;
+  }
+
+  .intro-box {
+    margin-right: 30%;
+    radius: 50%;
+    padding: 1%;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .work {
+    width: 95%;
+    padding-top: 2rem;
+    display: inline-flex;
+  }
+
+  /*Work / Testimonials*/
+  #work {
+    background-color: LightGrey;
+    margin: 10%;
+    border-radius: 50px;
+  }
+
+  /*carousel*/
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #LightGrey;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #51b3ae;
+  }
+
+  .period {
+    color: grey;
+    font-size: 1rem;
+    line-height: 0.5rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .work-pace {
+    font-size: 1.4rem;
+    max-width: 5rem;
+  }
+
+  /* Right column */
+  /*
+  .duties {
+    background-color: LightGrey;
+    border-radius: 10%;
+    float: left;
+    padding: 2%;
+    max-width: 50rem;
+  }
+*/
+  .skills {
+    background-color: LightGrey;
+    border-radius: 15px 50px 30px;
+    width: 90%;
+    margin: auto;
+    padding-left: 2%;
+  }
+
+  /*features*/
+  #Software {
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 1%;
+    background: #fff;
+    position: relative;
+  }
+
+  .feature-box {
+    text-align: center;
+    background: #fff;
+    position: relative;
+  }
+
+  #languages {
+    margin-left: 20%;
+    margin-right: 15%;
+    padding:1%;
+    background: #fff;
+
+  }
+  .education {
+    background-color: white;
+    border-radius: 15px 50px 30px;
+    width: 90%;
+    margin: auto;
+    padding-left: 3%;
+  }
+
+  .icon {
+    color: #51b3ae;
+    margin-bottom: 0rem;
+  }
+
+  .icon:hover {
+    color: #5df0f0;
+  }
+
+  /*
+  .languages {
+    background-color: LightGrey;
+    border-radius: 15px 50px 30px;
+    width: 60%;
+    margin: auto;
+    padding-left: 5%;
+  }
+*/
+  .bottom-container {
+    text-align: center;
+  }
+
+  .btn {
+    box-shadow: 0 2px 9px -2px #a7b5db;
+    background: linear-gradient(to bottom, #51b3ae 5%, #5df0f0 100%);
+    background-color: #51b3ae;
+    border-radius: 12px;
+    border: 1px solid #d7f0f7;
+    display: inline-block;
+    cursor: pointer;
+    color: #fafeff;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 4px 29px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #4471e3;
+  }
+
+  .myButton:hover {
+    background: linear-gradient(to bottom, #5df0f0 5%, #51b3ae 100%);
+    background-color: #5df0f0;
+  }
+
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
