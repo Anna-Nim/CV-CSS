@@ -3,7 +3,9 @@
     font-family: 'Open Sans', sans-serif;
     color: #40514e;
     font-size: 15px;
-    margin-right: 10%;
+    margin: 10%;
+    margin: auto;
+
   }
 
   .hand-written {
@@ -20,19 +22,7 @@
   .my-pic1 {
     height: 12.5rem;
     width: 12.5rem;
-    margin-left: 15%;
-    position: absolute;
-    right: 70%;
-    top: 23%
-  }
-
-  .my-pic2 {
-    height: 12.5rem;
-    width: 12.5rem;
-    margin-left: 15%;
-    position: absolute;
-    right: 70%;
-    top: 23%
+    margin-left: 20%;
   }
 
   .icon {
@@ -45,6 +35,9 @@
     height: 220px;
     width: 170px;
   }
+.navbar-brand{
+      color: #3b6978;
+}
 
   .contacts {
     height: 10rem;
@@ -132,8 +125,8 @@
 
   h4 {
     color: #3b6978;
+    font-size: 1.3rem;
     text-align: center;
-    font-size: 1rem;
   }
 
   h5 {
@@ -161,34 +154,63 @@
 
   .greeting {
     width: 50%;
+    padding-top: 10%;
     margin: auto;
     text-align: center;
     font-size: 1.2rem;
   }
 
   .about {
-    text-align: center;
-    background-color: white;
-    color: #3b6978;
-    border-radius: 15px 50px 30px;
-    width: 50%;
+    display: inline-flex;
     margin: auto;
-    padding: 3%;
-    line-height: 1.5rem;
   }
 
-  .education {
-    background-color: white;
-    border-radius: 15px 50px 30px;
-    width: 90%;
-    margin: auto;
-    padding-left: 3%;
+  .intro-box {
+    margin-right: 30%;
+    radius: 50%;
+    padding: 1%;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 1;
   }
 
   .work {
     width: 95%;
     padding-top: 2rem;
     display: inline-flex;
+  }
+
+  /*Work / Testimonials*/
+  #work {
+    background-color: LightGrey;
+    margin: 10%;
+    border-radius: 50px;
+  }
+
+  /*carousel*/
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #LightGrey;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #51b3ae;
   }
 
   .period {
@@ -205,6 +227,7 @@
   }
 
   /* Right column */
+  /*
   .duties {
     background-color: LightGrey;
     border-radius: 10%;
@@ -212,7 +235,7 @@
     padding: 2%;
     max-width: 50rem;
   }
-
+*/
   .skills {
     background-color: LightGrey;
     border-radius: 15px 50px 30px;
@@ -221,14 +244,46 @@
     padding-left: 2%;
   }
 
-  .left {
-    margin-left: 10%;
+  /*features*/
+  #Software {
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 1%;
+    background: #fff;
+    position: relative;
   }
 
-  .right {
-    margin-right: 10%;
+  .feature-box {
+    text-align: center;
+    background: #fff;
+    position: relative;
   }
 
+  #languages {
+    margin-left: 20%;
+    margin-right: 15%;
+    padding:1%;
+    background: #fff;
+
+  }
+  .education {
+    background-color: white;
+    border-radius: 15px 50px 30px;
+    width: 90%;
+    margin: auto;
+    padding-left: 3%;
+  }
+
+  .icon {
+    color: #51b3ae;
+    margin-bottom: 0rem;
+  }
+
+  .icon:hover {
+    color: #5df0f0;
+  }
+
+  /*
   .languages {
     background-color: LightGrey;
     border-radius: 15px 50px 30px;
@@ -236,7 +291,7 @@
     margin: auto;
     padding-left: 5%;
   }
-
+*/
   .bottom-container {
     text-align: center;
   }
